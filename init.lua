@@ -19,7 +19,6 @@ mobs:register_mob(":mobs:stone_monster", {
 	mesh = "mobs_stone_monster.b3d",
 	textures = {
 		{"mobs_stone_monster.png"},
-		{"mobs_stone_monster2.png"}, -- by AMMOnym
 	},
 	makes_footstep_sound = true,
 	sounds = {
