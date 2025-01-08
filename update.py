@@ -71,7 +71,7 @@ def updateNamespace(target):
 	content = fin.read().replace("\r\n", "\n").replace("\r", "\n")
 	fin.close()
 
-	content = re.sub("\"mobs_monster:", "\":mobs:", content, flags=re.M)
+	content = re.sub("\"mobs_monster:", "\"mobs:", content, flags=re.M)
 
 	lines = content.split("\n")
 	for idx in reversed(range(len(lines))):
